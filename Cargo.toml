@@ -5,6 +5,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# ggez sans la fonctionnalité audio
+
 ggez = { version = "0.9", default-features = false, features = ["gamepad"] }
 rand = "0.8"
